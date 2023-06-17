@@ -276,7 +276,7 @@
 }
 
 
-.form__input:nth-last-of-type {
+.form__input:nth-last-of-type() {
   padding-bottom: 0;
 }
 .form__input::placeholder {
