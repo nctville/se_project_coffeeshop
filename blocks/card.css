@@ -1,7 +1,13 @@
 .card{
   width: 540px;
 }
-
+.card__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 auto 32px;
+}
 .card__list{
   margin: 0 auto;
   padding: 0;
@@ -12,9 +18,12 @@
   list-style: none;
   display: flex;
   justify-content: space-between;
-  display: flex;
+  gap: 5px;
 
 
+}
+.card__list-item:last-child {
+  margin-bottom: 0;
 }
 
 .card__list-divider{
