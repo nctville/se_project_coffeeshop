@@ -1,0 +1,24 @@
+.card{
+  width: 540px;
+}
+
+.card__list{
+  margin: 0 auto;
+  padding: 0;
+}
+
+.card__list-item{
+  padding-bottom: 16px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+
+
+}
+
+.card__list-divider{
+  display: flex;
+  flex-grow: 1;
+  border-bottom: black 1px solid;
+}
