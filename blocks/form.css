@@ -3,8 +3,8 @@
 
 .form {
   margin: 0 auto;
-  width: 385px;
-  max-height: 536px;
+  max-width: 385px;
+
   box-sizing: border-box;
   font-family: "Inter", Arial, sans-serif;
 }
@@ -12,6 +12,9 @@
   margin-bottom: 32px;
   border: none;
   padding: 0;
+}
+.form__fieldset:last-child{
+  margin: 0;
 }
 .form__label {
   display: block;
@@ -40,9 +43,7 @@
 }
 
 
-.form__input:last-child {
-  padding-bottom: 0;
-}
+
 .form__input::placeholder {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;

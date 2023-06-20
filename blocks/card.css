@@ -23,7 +23,7 @@
 
 }
 .card__list-item:last-child {
-  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .card__list-divider{
