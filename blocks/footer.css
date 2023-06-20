@@ -36,6 +36,7 @@
 .footer__list-item{
   list-style: none;
   margin-bottom: 16px;
+  gap: 10px;
 }
 .footer__list-item:last-of-type {
   margin-bottom: 0;
@@ -58,4 +59,19 @@
   width: 16px;
   padding: 0;
   margin-right: 10px;
+  }
+
+  .footer__column-heading {
+    margin: 0 0 20px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .footer__column-link {
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
   }

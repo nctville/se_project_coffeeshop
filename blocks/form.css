@@ -15,6 +15,9 @@
 }
 .form__fieldset:last-child{
   margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
 }
 .form__label {
   display: block;
@@ -29,7 +32,7 @@
 .form__label[for="terms"] {
   display: inline;
   margin-left: 12px;
-  vertical-align: middle;
+  vertical-align: 0;
   font-weight: 400;
 }
 .form__input {
@@ -57,8 +60,6 @@
   border-radius: 4px;
   width: 20px;
   height:20px;
-  display:flex;
-  align-items: center;
 }
 
 .form__button[type="submit"] {
