@@ -142,11 +142,19 @@
               <button type="submit" class="form__button">Book a table</button>
             </fieldset>
             <fieldset class="form__fieldset">
-              <label class="form__checkbox">
-                <input type="checkbox" class="form__checkbox" required />
-                I agree with the terms of use</label>
+              <label
+              class="form__label form__label_type_checkbox"
+              for="checkbox"
+            >
+              <input
+                class="form__checkbox"
+                type="checkbox"
+                required
+                id="checkbox"
+              />
+              I agree to the terms of use
+            </label>
           </fieldset>
-
 
         </form>
 
@@ -204,36 +212,35 @@
     <footer class="footer">
       <div class="footer__content">
         <img
-          src="./images/practicum_logo.svg"
-          alt="footer logo"
-          class="footer__logo">
-          <div class="footer__social">
-            <h4 class="footer__column-heading">Social Media</h4>
-              <ul class="footer__list">
-                <li class="footer__list-item">
-                  <a href="https://www.facebook.com" target="_blank" class="footer__social-link">
-                    <img
-                      src="./images/facebook_white.svg"
-                      alt="facebook logo"
-                      class="footer__social-icon"
-                    />Facebook
-                  </a>
-                </li>
-
-                <li class="footer__list-item">
-                  <a href="https://www.instagram.com" target="_blank" class="footer__social-link">
-                    <img
-                      src="./images/instagram_white.svg"
-                      alt="instagram logo"
-                      class="footer__social-icon"
-                    />Instagram
-                  </a>
-                </li>
-              </ul>
-          </div>
+        src="./images/practicum_logo.svg"
+        alt="footer logo"
+        class="footer__logo">
+        <div class="footer__social">
+          <h4 class="footer__column-heading">Social Media</h4>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a href="#" class="footer__column-link">
+                <img
+                src="./images/facebook_white.svg"
+                alt="facebook logo"
+                class="footer__social-icon"
+                />Facebook
+              </a>
+            </li>
+             <li class="footer__list-item">
+              <a href="#" class="footer__column-link">
+                <img
+                src="./images/instagram_white.svg"
+                alt="instagram logo"
+                class="footer__social-icon"
+                />Instagram
+              </a>
+            </li>
+          </ul>
         </div>
-        <p class="footer__copyright">&copy; 2023 Nicholas Turberville</p>
-      </footer>
+      </div>
+      <p class="footer__copyright">&copy; 2023 Nicholas Turberville</p>
+    </footer>
       </div>
     </body>
     </html>

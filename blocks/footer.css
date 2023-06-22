@@ -3,9 +3,7 @@
   color: #ffffff;
   margin:0;
   padding: 0;
-
 }
-
 .footer__content {
   display: flex;
   justify-content: space-between;
@@ -29,6 +27,7 @@
   margin-bottom: 16px;
   gap: 10px;
 }
+
 .footer__list-item:last-of-type {
   margin-bottom: 0;
 }
@@ -37,10 +36,9 @@
   padding-bottom: 60px;
   padding-left: 80px;
   padding-top: 108px;
-
 }
 .footer__list{
-  padding: 0;
+ padding: 0;
   margin: 0;
 }
 
@@ -58,11 +56,12 @@
   line-height: 20px;
   }
 
-.footer__social-link {
+.footer__column-link {
+
   color: #fff;
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
   display: flex;
   align-items: center;
-}
+  }
